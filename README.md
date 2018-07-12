@@ -11,6 +11,7 @@ $ cat ../terraform.tfvars
 aws_access_key = "your-aws-access-key"
 aws_secret_key = "your-aws-secret-key"
 private_key_path = "/Users/username/aws/keys"
+key_name  = "your-aws-ssh-privatekey-filename"
 ```
 ### Terraform commands:
 ```
