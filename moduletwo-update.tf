@@ -139,7 +139,7 @@ resource "aws_security_group" "nginx-sg" {
 
 # LOAD BALANCER #
 resource "aws_elb" "web" {
-  name = "nginx-elb"
+  name = "nginx-elb-trainee05"
 
   subnets         = ["${aws_subnet.subnet1.id}", "${aws_subnet.subnet2.id}"]
   security_groups = ["${aws_security_group.elb-sg.id}"]
